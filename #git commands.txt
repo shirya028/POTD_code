@@ -1,5 +1,5 @@
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin repository-url
+git remote add origin https://github.com/shirya028/POTD_code.git
 git push origin main
