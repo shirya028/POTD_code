@@ -1,4 +1,4 @@
-class Solution {
+class LeafToNode {
     
     public static void helper(Node root , ArrayList<ArrayList<Integer>> arr ,ArrayList<Integer> temp) {
         if(root!=null && root.left==null && root.right==null) {
