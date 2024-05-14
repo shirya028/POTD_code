@@ -6,7 +6,7 @@ public class ComparatorDemo {
 
         Comparator<ArrayList<Integer>> cmp=new Comparator<ArrayList<Integer>>() {
             public int compare(ArrayList<Integer> i,ArrayList<Integer> j) {
-                if(i.get(0) > j.get(0))
+                if(i.get(06) > j.get(0))
                     return 1;
                 return -1;
             }

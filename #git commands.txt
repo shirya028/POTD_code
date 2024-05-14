@@ -5,3 +5,8 @@ git commit -m "new commit"
 git branch -M main
 git remote add origin https://github.com/shirya028/POTD_code.git
 git push -u origin main
+
+
+
+$ git fetch origin main:tmp
+$ git rebase tmp
